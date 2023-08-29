@@ -16,7 +16,7 @@ const argv = require("yargs")
                     alias: "rango",
                     type: "number",
                     default: 10,
-                    describe: 'Al colocar l o listar, Para especificar cual es el rango en el cual se hara la multiplicación'
+                    describe: ' Al colocar r o rango, Para especificar cual es el rango en el cual se hara la multiplicación'
                 })
                 .check((argv, options) => {
                     if (isNaN(argv.b)) {
