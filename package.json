@@ -1,0 +1,16 @@
+{
+  "name": "base-node",
+  "version": "0.0.1",
+  "description": "Es una aplicacion para multiplicar",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node app.js"
+  },
+  "author": "ulices",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "yargs": "^17.7.2"
+  }
+}
